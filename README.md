@@ -1,59 +1,227 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+SurplusLink Lanka
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Smart Surplus Food Redistribution Platform
+SurplusLink Lanka is a web-based food redistribution platform designed to reduce food waste by connecting restaurants and food businesses with organizations and individuals who can make use of surplus food.
 
-## About Laravel
+The platform provides a centralized system for managing surplus food listings, requests, users, restaurants, NGOs, delivery partners, and food redistribution activities.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+🎯 Project Overview
+Every day, usable food can become surplus due to overproduction, cancelled orders, excess inventory, or approaching expiry.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+SurplusLink Lanka aims to provide a digital solution that helps redirect this surplus food instead of allowing it to become unnecessary waste.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The system brings together multiple stakeholders through one platform:
+🍽️ Restaurants & Food Businesses
+🤝 NGOs
+👤 Customers
+🚚 Delivery Partners
+🛡️ Administrators
 
-## Learning Laravel
+✨ Key Features
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+👤 User Management
+User registration and authentication
+Role-based access control
+User profile management
+Account status management
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+🍽️ Restaurant Management
+Restaurant profiles
+Business information management
+Food surplus listing management
+Listing availability management
+Food request management
 
-## Laravel Sponsors
+🥘 Food Listings
+Create surplus food listings
+Edit and delete listings
+Food type categorization
+Quantity and pricing information
+Pickup address management
+Availability deadline
+Listing status tracking
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+📦 Food Requests
+Browse available surplus food
+Request food listings
+View personal requests
+Track request status
+Restaurant-side request management
 
-### Premium Partners
+🤝 NGO Support
+NGO profiles
+NGO dashboard
+Food redistribution support
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+🚚 Delivery Partners
+Delivery partner profiles
+Delivery task management
+Delivery workflow support
 
-## Contributing
+🔔 Notifications
+Food request status notifications
+User notification management
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+🛡️ Admin Management
+User management
+Restaurant management
+Platform monitoring
 
-## Code of Conduct
+Role and status management
+👥 User Roles
+Role
+Main Responsibilities
+👤 Customer
+Browse food and make requests
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+🍽️ Restaurant
+Manage surplus food listings and requests
 
-## Security Vulnerabilities
+🤝 NGO
+Support food redistribution activities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+🚚 Delivery Partner
+Handle delivery tasks
 
-## License
+🛡️ Admin
+Manage and monitor the platform
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+🛠️ Technology Stack
+Backend
+PHP
+Laravel
+Frontend
+HTML5
+CSS3
+JavaScript
+Blade
+Bootstrap / Tailwind CSS
+Database
+MySQL / MariaDB
+Development Tools
+Visual Studio Code
+XAMPP
+Composer
+npm
+Git & GitHub
+
+🏗️ Project Architecture
+The application follows the Laravel MVC architecture.
+SurplusLink-Lanka
+│
+├── app/
+│ ├── Http/
+│ │ ├── Controllers/
+│ │ ├── Middleware/
+│ │ └── Requests/
+│ ├── Models/
+│ └── Notifications/
+│
+├── bootstrap/
+├── config/
+├── database/
+│ ├── migrations/
+│ ├── factories/
+│ └── seeders/
+│
+├── public/
+├── resources/
+│ ├── css/
+│ ├── js/
+│ └── views/
+│
+├── routes/
+├── storage/
+├── tests/
+├── composer.json
+├── package.json
+└── artisan
+
+🔐 Security
+The project follows common Laravel security practices including:
+Authentication
+Role-based authorization
+CSRF protection
+Password hashing
+Environment-based configuration
+.env exclusion from version control
+Sensitive environment variables and database credentials are intentionally excluded from the repository.
+
+🚀 Installation & Setup
+1. Clone the repository
+git clone https://github.com/nawoda27/SurplusLink-Lanka.git
+2. Navigate to the project
+cd SurplusLink-Lanka
+3. Install PHP dependencies
+composer install
+4. Install frontend dependencies
+npm install
+5. Create the environment file
+cp .env.example .env
+For Windows, you can also create a copy of .env.example and rename it to:
+.env
+6. Generate the application key
+php artisan key:generate
+7. Configure the database
+Create a MySQL/MariaDB database and update the database settings in .env.
+Example:
+DB_DATABASE=surpluslink_lanka_laravel
+DB_USERNAME=root
+DB_PASSWORD=
+8. Run migrations
+php artisan migrate
+9. Create the storage link
+php artisan storage:link
+10. Start the Laravel development server
+php artisan serve
+The application will normally be available at:
+http://127.0.0.1:8000
+11. Start the frontend development server
+In another terminal:
+npm run dev
+
+📸 Screenshots
+Screenshots of the application will be added here as the platform UI is finalized.
+Planned screenshots include:
+Landing Page
+Customer Dashboard
+Restaurant Dashboard
+Food Listings
+Food Request Management
+NGO Dashboard
+Delivery Partner Dashboard
+Admin Dashboard
+
+🗺️ Future Improvements
+The platform is designed to be continuously extended.
+Planned improvements include:
+💳 Credit / reward system
+📱 Android mobile application
+🗺️ Location-based food discovery
+📍 GPS-based delivery tracking
+🔔 Real-time notifications
+📊 Advanced analytics dashboards
+🤖 Smart surplus food recommendations
+📈 Food waste reduction analytics
+💰 Donation and payment support
+🔎 Advanced search and filtering
+
+🎓 Project Purpose
+SurplusLink Lanka is being developed as a portfolio project to demonstrate practical skills in:
+Software development
+Laravel web application development
+Database design
+Role-based system architecture
+Business analysis
+UI/UX design
+Git and GitHub workflow
+Software testing
+
+👩‍💻 Developer
+Nawoda Hansanee
+HNDIT Student | Aspiring Software Developer
+
+Skills
+PHP Laravel MySQL Java Android JavaScript HTML CSS Git GitHub
+📄 License
+This project is currently developed for educational and portfolio purposes.
